@@ -1,0 +1,9 @@
+
+Dosis - Semi-bold 600 {
+	font-family: 'Dosis', sans-serif;
+}
+
+Signika Negative - Light 300, Semi-bold 600 {
+	font-family: 'Signika Negative', sans-serif;
+}
+

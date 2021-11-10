@@ -1,0 +1,351 @@
+/*--------------------------------------index---------------------------------------------*/
+body {
+	font-family: 'Signika Negative', sans-serif;
+}
+
+nav a{
+	color: white;
+	text-decoration: none;
+}
+
+.nome-da-loja {
+	color: white;
+	text-align: initial;
+	font-size: 60px;
+	margin: 30px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.entrada {
+	font-size: 20px;
+	background: linear-gradient(#9775AA, #764B8E, #582A72, #3D1255);
+	padding: 20px;
+	text-align: right;
+}
+
+.container a {
+	transition: 0.4s all;
+}
+.container a:hover {
+	color: #260339;
+}
+
+.entrada-lista {
+	padding: 50px;
+}
+
+.entrada-lista li {
+	padding: 5px;
+}
+
+.entrada-lista img {
+	width: 18px;
+	padding-right: 5px;
+}
+
+.menu-de-navegacao {
+	font-size: 30px;
+	background: #764B8E;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.menu-de-navegacao li {
+	padding: 25px;
+	padding-right: 40px;
+}
+
+.submenu-lista {
+	position: absolute;
+	top: 260px;
+	left: 260px;
+	background-color: white;
+	border: 1px solid #F4E8FD;
+	display: none;
+}
+
+.submenu-lista a {
+	color: black;
+	font-size: 13px;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-lista li:hover .submenu-lista {
+	display: block;
+}
+
+.submenu-lista li {
+	border: 0.5px solid #F4E8FD;
+	display: block;
+	width: 250px;
+	transition: 0.3s background;
+	transition: 0.5s border;
+}
+
+.submenu-lista li:hover, .submenu-lista a:hover {
+	background-color: #9775AA;
+	color: white;
+}
+
+.capa {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+main {
+	background: #F4E8FD;
+}
+
+.novidades-da-semana, .mais-vendidos, .promocoes-da-semana, .setores-roupas, .itens-roupas, .main-novidades, .main-promocoes {
+	padding: 20px;
+}
+
+.titulo-main-inicio, .titulo-main-roupas, .titulo-main-itens {
+	border: 2px solid black;
+	background: white;
+	padding: 30px 50px 30px 50px;
+}
+
+.h2-main-inicio, .h2-main-roupas, .h2-main-itens {
+	font-size: 30px;
+}
+
+.main-inicio li, .main-roupas li, .itens-roupas li, .main-novidades li, .main-promocoes li {
+	background: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	transition: 1s all;
+	margin: 20px 20px 50px 20px;
+}
+
+.lista-main-inicio img, .lista-main-roupas img, .lista-main-itens img {
+	width: 220px;
+	border: 2px solid black;
+	margin: 10px;
+}
+
+.lista-main-inicio h3, .lista-main-roupas h3, .lista-main-itens h3 {
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+	height: 40px;
+	line-height: 22px;
+}
+
+.p-preco {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.main-inicio li:hover, .main-roupas li:hover, .itens-roupas li:hover, .main-novidades li:hover, .main-promocoes li:hover {
+	transform: scale(1.03);
+}
+
+.botao-ver-mais a {
+	background: #F4E8FD;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	border: 1px solid black;
+	padding: 7px;
+	border-radius: 5px;
+	transition: 0.5s all;
+}
+
+.botao-comprar {
+	background: #F4E8FD;
+	width: 150px;
+	font-size: 18px;
+	margin: 20px 15px 30px 15px;
+	border: 1px solid black;
+	padding: 7px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+
+.botao-ver-mais a:hover, .botao-email:hover, .botao-comprar:hover {
+	background-color: #764B8E;
+}
+
+/*--------------------------------------roupas-------------------------------------------*/
+.itens-roupas {
+
+}
+
+.titulo-main-itens {
+
+}
+
+.h2-main-itens {
+	text-align: center;
+}
+
+.lista-main-itens {
+
+}
+
+/*-------------------------------------promocoes---------------------------------------------*/
+.p-promocao {
+	color: gray;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+
+
+/*-------------------------------------Sobre---------------------------------------------*/
+.titulo-sobre {
+	font-size: 35px;
+	padding: 10px;
+	margin-top: 80px;
+}
+
+.texto-sobre {
+	font-size: 22px;
+	padding: 20px;
+	line-height: 40px;
+	margin: 20px 50px 20px 50px;
+	text-align: justify;
+}
+
+.texto-sobre a {
+	text-decoration: none;
+	color: #260339;
+}
+
+.texto-sobre a:hover {
+	color: #764B8E;
+}
+
+.sobre .mapa {
+	width: 800px;
+	height: 350px;
+	margin: 50px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.selo {
+	border: 2px solid black;
+	width: 325px;
+	height: 660px;
+	margin: 30px;
+	margin-top: 50px;
+	background-color: white;
+	margin-bottom: 100px;
+}
+
+.selo-abvtex, .selo-peta {
+	width: 180px;
+	margin-top: 20px;
+}
+
+.selo-peta, .selo-gots {
+	width: 140px;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+.selo-gots {
+	width: 170px;
+}
+
+.titulo-sobre-selo {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.texto-sobre-selo {
+	font-size: 18px;
+	margin: 18px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+/*-------------------------------------rodapé---------------------------------------------*/
+footer {
+	background: #9775AA;
+	padding: 30px 0 70px 0;
+	text-align: center;
+}
+
+.rodape {
+	color: white;
+	font-size: 19px;
+	padding: 10px;
+	padding-left: 30px;
+}
+
+.titulo-rodape {
+	color: white;
+	font-size: 22px;
+	padding: 25px;
+	font-weight: bold;
+}
+
+.copyright {
+	color: white;
+	font-size: 15px;
+	margin-top: 40px;
+}
+
+.itens-rodape a {
+	text-decoration: none;
+	color: white;
+	font-size: 19px;
+	transition: 0.3s all;
+}
+
+.itens-rodape a:hover {
+	color: #260339;
+}
+
+.input-email {
+	font-size: 15px;
+	width: 240px;
+	margin-left: 25px;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.botao-email {
+	font-size: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.rodape-contato-email {
+	margin-top: 50px;
+}
+
+.rodape-redes-sociais img {
+	width: 35px;
+	margin-left: 35px;
+	margin-top: 30px;
+	transition: 1s;
+}
+
+.rodape-redes-sociais img:hover {
+	transform: scale(1.1);
+}
+
+.rodape-mapa {
+	padding: 20px;
+}
+
+.mapa {
+	border: 2px solid white;
+	transition: 1s;
+}
+
+.mapa:hover {
+	transform: scale(1.02);
+}

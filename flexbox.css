@@ -1,0 +1,113 @@
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.entrada {
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu-lista {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.submenu-lista div {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-inicio, .main-roupas {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.titulo-main-inicio, .titulo-main-roupas {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.lista-main-inicio, .lista-main-roupas {
+	display: flex;
+	flex-direction: row;
+}
+
+.lista-main-inicio li, .lista-main-roupas li, .lista-main-itens li {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: baseline;
+}
+
+.botao-ver-mais {
+	align-self: center;
+}
+
+.botao-comprar{
+	align-self: center;
+}
+
+.lista-main-inicio h3, .lista-main-roupas h3, .lista-main-itens h3, .p-preco{
+	width: 220px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.itens-rodape {
+	height: 580px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.rodape-primeira-parte, .rodape-segunda-parte, .rodape-terceira-parte {
+	display: flex;
+	align-items: flex-start;
+	flex-flow: column wrap;
+}
+
+.copyright {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.input-email {
+	display: inline-block;
+}
+
+.botao-email {
+	display: inline-block;
+}
+
+.rodape-redes-sociais {
+	display: flex;
+	flex-direction: row;
+}
+
+.sobre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.div-selos {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.selo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.linhas-itens {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}

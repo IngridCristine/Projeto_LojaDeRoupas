@@ -1,0 +1,16 @@
+tons de roxo {
+	
+	lilás-branco: #F4E8FD;
+	lilás-claro: #9775AA;
+	lilás-escuro: #764B8E;
+	roxo-claro: #582A72;
+	roxo-medio: #3D1255;
+	roxo-escuro: #260339;
+
+	roxo-1: #583391;
+	roxo-2: #421C7C;
+	roxo-3: #300D67;
+	roxo-4: #22054E;
+	roxo-5: #140231;
+
+}
